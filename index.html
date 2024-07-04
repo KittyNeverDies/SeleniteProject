@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <!---                                                                     
+  All head content should be here                                                                  
+  -->
+  <meta charset="UTF-8">
+  <title>Selenite project.</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/beercss@3.5.6/dist/cdn/beer.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.5.6/dist/cdn/beer.min.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.0/dist/cdn/material-dynamic-colors.min.js"></script>
+  <script>
+    async function loadColorTheme() {
+        // Changing theme
+        let theme = await ui("theme", "#0080FF");
+    }     
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    * {
+        font-family: "Montserrat", sans-serif;
+    }
+    .search-bar {
+        border-radius: 10px;
+        width: 50%;
+        border: 0px solid #ccc;
+        margin: 10px auto;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        transition: width 0.3s ease-in-out;
+    }
+
+  </style>
+  <link rel="icon" href="assets/logo.png"/>
+</head>
+<body onload="loadColorTheme()">
+  
+  <!--
+  Navigation bar at top
+  -->
+  <header class="secondary-container">
+    <nav>
+        
+        <div class="max"></div>
+        <a href="https://dsc.gg/selenite">
+            <button class="circle transparent">
+                <i>link</i>
+                <div class="tooltip bottom no-space">Discord Support Server</div>
+            </button>
+        </a>   
+        <label class="switch icon">
+            <input type="checkbox" id="theme-switch" onchange="toggleTheme()"/>
+            <span>
+                <i id="theme-icon">light_mode</i>
+            </span>
+        </label>
+    </nav>
+    
+    <div class="small-space"></div>
+    <h5 class="small-padding center-align">Selenite project.</h5>
+    <div class="center-align">It's Selenite, related chemistry element Selenium. Also known formula is SeO²⁻₃.</div>
+    <div class="center-align">This project represents list of minecraft and roblox modification and tools. Before was a Roblox Executor.</div>
+    <div class="small-space"></div>
+    <div></div>
+    <div class="search-bar">
+        <div class="center bottom field label suffix">
+            <input type="text">
+            <label>Search</label>
+            <i>search</i>
+        </div>
+    </div>
+  </header>
+
+  <main class="responsive">
+    <!-- Example-->
+    <div class="grid">
+        <div class="s4">
+            <article class="no-padding secondary-container">
+                <img class="responsive small" src="/beer-and-woman.svg"><!----><!---->
+                <div class="padding">
+                    <h5>Example Utility</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="max">
+                        <button class="secondary small-round">
+                            <i>download</i>
+                            <span>Utility version 1</span>
+                        </button>
+                        <div class="small-space"></div>
+                        <button class="secondary small-round">
+                            <i>download</i>
+                            <span>Utility version 2</span>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+  </main>
+<script src="js/scripts.js"></script>
+</body>
+</html>

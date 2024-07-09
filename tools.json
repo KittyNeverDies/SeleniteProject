@@ -1,0 +1,223 @@
+[
+    {
+      "name": "Bungee Kit",
+      "description": "You can use it to bypass BungeeCord protections. Recommend use it in SandBox. Pretty outdated for right now.",
+      "img_url": " ",
+      "author": "VoxelHax",
+      "author_url": "https://voxelhax.com/",
+      "downloads": [
+        {
+          "name": "Download",
+          "download_link": "https://github.com/WalmartSolutions/Asteria.rip"
+        }
+      ]
+    },
+    {
+      "name": "MCCMDLOGGER",
+      "description": "You can use it on server or your machine. It redirect to original or target server, then logs chat messages and commands, i.e server poison tool.",
+      "author": "VoxelHax",
+      "author_url": "https://voxelhax.com/",
+      "img_url": "",
+      "downloads": [
+        {
+          "name": "Download",
+          "download_link": "https://voxelhax.com/mcmdlogger"
+        }
+      ]
+    },
+    {
+        "name": "Roblox FPS Unlocker",
+        "description": "Unlocks FPS for Roblox. Right now outdated and replaced by Bloxstrap & Roblox setting, you can use it only for unlock Roblox Studio",
+        "author": "Axstin",
+        "author_url": "https://github.com/axstin",
+        "img_url": "",
+        "downloads": [
+          {
+            "name": "Github",
+            "download_link": "https://github.com/axstin/rbxfpsunlocker/releases"
+          }
+        ] 
+    },
+    {
+        "name": "RoShade",
+        "description": "Old shaders for roblox, right now useless.",
+        "img_url": "",
+        "author": "bituq & Zeal",
+        "author_url": "https://github.com/bituq",
+        "downloads": [
+          {
+            "name": "Download",
+            "download_link": "https://github.com/bituq/Roshade/releases"
+          }
+        ] 
+    },
+    {
+        "name": "Cheat Engine",
+        "description": "Tool to edit Games Memory (Standart Search, AntiRandomizer, SpeedHack, etc)",
+        "img_url": " ",
+        "author": "Big community",
+        "downloads": [
+          {
+            "name": "Cheat Engine",
+            "download_link": "https://cheatengine.org/"
+          },
+          {
+            "name": "Nopde Engine",
+            "download_link": "https://wearedevs.net/d/NOPDE%20Engine"
+          },
+          {
+            "name": "Source code of Cheat Engine",
+            "download_link": "https://github.com/cheat-engine/cheat-engine"
+          }
+        ] 
+    },
+    {
+        "name": "Theia",
+        "description": "Java malware analyzer. Can be used to search backdoors in minecraft hacked clients. Have Opened source code.",
+        "author": "TigerMouthBear",
+        "img_url": " ",
+        "downloads": [
+          {
+            "name": "Source code",
+            "download_link": "https://github.com/Tigermouthbear/Theia"
+          },
+          {
+            "name": "Download",
+            "download_link": "https://github.com/Tigermouthbear/Theia/releases"
+          }
+        ] 
+    },
+    {
+        "name": "MCP Tool",
+        "description": "Open source Minecraft multi-tool made for pentesting. You need to build it yourself. Read How-To-Install.txt file",
+        "img_url": "",
+        "downloads": [
+          {
+            "name": "Source code",
+            "download_link": "https://github.com/wrrulos/MCPTool"
+          }
+        ] 
+    },
+    {
+        "name": "Open Buckloit",
+        "description": "Contiunation of Buckloit. Plugin backdoor injector. Support custom exploits.",
+        "img_url": " ",
+        "author": "VoxelHax",
+        "author_url": "https://voxelhax.com/",
+        "downloads": [
+          {
+            "name": "Source code",
+            "download_link": "https://github.com/VoxelHax/OpenBuckloit"
+          }
+        ] 
+    },
+    {
+        "name": "Starlight",
+        "description": "Custom launcher for RBX. Right now is in Archive.",
+        "img_url": " ",
+        "author": "Originally by RealNickk, UI by CatsPnewed",
+        "downloads": [
+          {
+            "name": "UI",
+            "download_link": "https://gitea.com/CatsPnewed/Starlight-UI"
+          },
+          {
+            "name": "Original",
+            "download_link": "https://github.com/Substrant/Starlight/blob/main/README.md"
+          }
+        ] 
+    },
+    {
+        "name": "Sala",
+        "description": "Roblox UDP dissector.",
+        "author": "Arisstath",
+        "img_url": " ",
+        "downloads": [
+          {
+            "name": "Download",
+            "download_link": "https://github.com/Arisstath/roblox-dissector/releases"
+          }
+        ] 
+    },
+    {
+        "name": "Pack Recolor Tool",
+        "description": "This is a really efficient and underrated tool. Essentially this tool allows you to change the colour of any texture pack to a colour of your choice in just a few seconds, without having to edit ever resource texture with a tool like paint.net. This tool was found on one discord server, and I think that it is need to be posted there..",
+        "img_url": " ",
+        "author": "DragonDoodler",
+        "downloads": [
+          {
+            "name": "Download",
+            "download_link": "https://www.mediafire.com/file/7i6zaw8j9g2xyhn/recoloursetup.exe/file"
+          }
+        ] 
+    },
+    {
+        "name": "SRC Checker",
+        "description": "Checks source code of hacked clients (java & kotlin), like theia",
+        "img_url": " ",
+        "author": "Nyvil",
+        "author_url": "https://github.com/Nyvil/",
+        "downloads": [
+          {
+            "name": "Download",
+            "download_link": "https://github.com/Nyvil/SrcChecker/releases"
+          }
+        ] 
+    },
+    {
+        "name": "BloxStrap",
+        "description": "An open-source, feature-packed alternative bootstrapper for Roblox. Something like Starlight Launcher, but it has UI.",
+        "img_url": "",
+        "author": "pizzabloxer",
+        "author_url": "https://github.com/pizzaboxer/",
+        "downloads": [
+          {
+            "name": "Download",
+            "download_link": "https://github.com/pizzaboxer/bloxstrap/releases"
+          }
+        ] 
+    },
+    {
+        "name": "Discord Token Protector",
+        "description": "Protect your Discord token from malicious grabbers! Please read all information, before using it.",
+        "img_url": " ",
+        "author": "andro2157",
+        "author_url": "https://github.com/andro2157/",
+        "downloads": [
+          {
+            "name": "Download it here",
+            "download_link": "https://github.com/andro2157/DiscordTokenProtector/releases"
+          }
+        ] 
+    },
+    {
+        "name": "Recaf",
+        "description": "Recaf is an open-source Java bytecode editor that simplifies the process of editing compiled Java applications. ",
+        "img_url": " ",
+        "author": "Community",
+        "downloads": [
+          {
+            "name": "Download",
+            "download_link": "https://www.coley.software/Recaf/"
+          }
+        ] 
+    },
+    {
+        "name": "Smoothie",
+        "description": "Mootion blur utility, best for adding motion blur to gameplay. Successor of tecno's blur.",
+        "img_url": " ",
+        "author": "Couleur Tweak Tips community",
+        "author_url": "https://github.com/couleur-tweak-tips/",
+        "downloads": [
+          {
+            "name": "Nightly Release",
+            "download_link": "https://github.com/couleur-tweak-tips/smoothie-rs/releases/latest/download/smoothie-rs-nightly.zip" 
+          },
+          {
+            "name": "Main branch",
+            "download_link": "https://github.com/couleur-tweak-tips/Smoothie"
+          }
+        ] 
+    }
+
+  ]

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
 <head>
-  <!---                                                                     
-  All head content should be here                                                                  
-  -->
+  <!--- All head content should be here -->
   <meta charset="UTF-8">
   <title>Selenite project.</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/beercss@3.5.6/dist/cdn/beer.min.css" rel="stylesheet" />
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.5.6/dist/cdn/beer.min.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.0/dist/cdn/material-dynamic-colors.min.js"></script>
+  
+  <!-- Apply theme here-->
   <script>
     async function loadColorTheme() {
         // Changing theme
@@ -35,37 +36,56 @@
     }
 
   </style>
+  
   <link rel="icon" href="assets/logo.png"/>
 </head>
 <body onload="loadColorTheme()">
   
-  <!--
-  Navigation bar at top
-  -->
-  <header class="secondary-container">
-    <nav>
-        
-        <div class="max"></div>
-        <a href="https://dsc.gg/selenite">
-            <button class="circle transparent">
-                <i>link</i>
-                <div class="tooltip bottom no-space">Discord Support Server</div>
-            </button>
-        </a>   
-        <label class="switch icon">
-            <input type="checkbox" id="theme-switch" onchange="toggleTheme()"/>
-            <span>
-                <i id="theme-icon">light_mode</i>
-            </span>
-        </label>
+    <!-- Navigation bar at top -->
+
+    <header class="secondary-container">
+        <nav>
+            
+            <!-- Link to source code of the page -->
+            <a href="https://github.com/kittyneverdies/SelenitePage/">
+                <button class="circle transparent">
+                    <i>code</i>
+                    <div class="tooltip bottom no-space">Source code</div>
+                </button>
+            </a> 
+            
+            <!-- Spacing here -->
+            <div class="max"></div>
+            
+            <!-- Link to the support server -->
+            <a href="https://dsc.gg/selenite">
+                <button class="circle transparent">
+                    <i>link</i>
+                    <div class="tooltip bottom no-space">Discord Support Server</div>
+                </button>
+            </a>  
+
+            <!-- Dark / Light theme switcher -->
+            <label class="switch icon">
+                <input type="checkbox" id="theme-switch" onchange="toggleTheme()"/>
+                <span>
+                    <i id="theme-icon">light_mode</i>
+                </span>
+            </label>
     </nav>
     
+    <!-- Small space -->
     <div class="small-space"></div>
+
+    <!-- Information about project with description & name-->
     <h5 class="small-padding center-align">Selenite project.</h5>
     <div class="center-align">It's Selenite, related chemistry element Selenium. Also known formula is SeO²⁻₃.</div>
     <div class="center-align">This project represents list of minecraft and roblox modification and tools. Before was a Roblox Executor.</div>
+   
+    <!-- Small space -->
     <div class="small-space"></div>
-    <div></div>
+
+    <!-- Search bar for search-->
     <div class="search-bar">
         <div class="center bottom field label suffix">
             <input type="text">
@@ -73,32 +93,103 @@
             <i>search</i>
         </div>
     </div>
+
   </header>
 
   <main class="responsive">
-    <!-- Example-->
-    <div class="grid">
-        <div class="s4">
-            <article class="no-padding secondary-container">
-                <img class="responsive small" src="/beer-and-woman.svg"><!----><!---->
-                <div class="padding">
-                    <h5>Example Utility</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="max">
-                        <button class="secondary small-round">
-                            <i>download</i>
-                            <span>Utility version 1</span>
-                        </button>
-                        <div class="small-space"></div>
-                        <button class="secondary small-round">
-                            <i>download</i>
-                            <span>Utility version 2</span>
-                        </button>
-                    </div>
-                </div>
-            </article>
+
+    <!-- Tabs of content-->
+    <div>
+        <div class="tabs center-align">
+            <a class="active vertical" data-ui="#minecraftclients">
+                <i>deployed_code</i>
+                <span>Minecraft clients</span>
+            </a>
+            <a class="vertical" data-ui="#tools">
+                <i>construction</i>
+                <span>Utilities</span>
+            </a>
+            <a class="vertical" data-ui="#robloxscripts">
+                <i>text_snippet</i>
+                <span>Roblox scripts</span>
+            </a>
+        </div>
+        <div class="page padding active" id="minecraftclients">
+            <!-- There should be minecraft clients -->
+            <div class="column-scroll">
+                <article class="no-padding secondary-container border">
+                        <img class="responsive small" src="/beer-and-woman.svg"><!----><!---->
+                        <div class="padding">
+                            
+                            <h5>Example Utility <a class="chip disabled" href="https://google.com"><span>by Unknown</span> <i>person</i></a></h5> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="max">
+                                <button class="secondary small-round">
+                                    <i>download</i>
+                                    <span>Utility version 1</span>
+                                </button>
+                                <div class="small-space"></div>
+                                <button class="secondary small-round">
+                                    <i>download</i>
+                                    <span>Utility version 2</span>
+                                </button>
+                            </div>
+                        </div>
+                </article>
+            </div>
+        </div>
+        <div class="page padding" id="tools">
+            <!-- There should be minecraft tools -->
+            <div class="column-scroll">
+                <article class="no-padding secondary-container border">
+                        <img class="responsive small" src="/beer-and-woman.svg"><!----><!---->
+                        <div class="padding">
+                            
+                            <h5>Example tool! <a class="chip disabled" href="https://google.com"><span>by Unknown</span> <i>person</i></a></h5> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="max">
+                                <button class="secondary small-round">
+                                    <i>download</i>
+                                    <span>Utility version 1</span>
+                                </button>
+                                <div class="small-space"></div>
+                                <button class="secondary small-round">
+                                    <i>download</i>
+                                    <span>Utility version 2</span>
+                                </button>
+                            </div>
+                        </div>
+                </article>
+            </div>
+        </div>
+        <div class="page padding" id="robloxscripts">
+            <!-- There should be roblox scripts -->
+            <div class="column-scroll">
+                <article class="no-padding secondary-container border">
+                        <img class="responsive small" src="/beer-and-woman.svg"><!----><!---->
+                        <div class="padding">
+                            
+                            <h5>Example scipt for roblox<a class="chip disabled" href="https://google.com"><span>by Unknown</span> <i>person</i></a></h5> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="max">
+                                <button class="secondary small-round">
+                                    <i>download</i>
+                                    <span>Utility version 1</span>
+                                </button>
+                                <div class="small-space"></div>
+                                <button class="secondary small-round">
+                                    <i>download</i>
+                                    <span>Utility version 2</span>
+                                </button>
+                            </div>
+                        </div>
+                </article>
+            </div>
         </div>
     </div>
+      
+
+    
   </main>
 <script src="js/scripts.js"></script>
 </body>
